@@ -1,0 +1,21 @@
+.field { 
+    width:1200px;
+    height:400px;
+    background-color:rgba(180, 10, 10, 0.801);
+    display:flex;
+    padding:100px;
+
+}
+
+.yourfield {
+    padding-right:20px;
+}
+
+.start {
+    display:flex;
+}
+
+.citizen-card {
+    padding:0 20px 0 0;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+<body>
+    <div class = "field">
+        <div class = "yourfield"> 
+            <div id="yours"></div>
+            <div id="yours_img"></div>
+        </div>
+        <div class = "minefield">
+            <div id="mine"></div>
+            <div id="mine_img"></div>
+        </div>
+        <div id="result"></div>
+    </div>
+
+
+
+    <button id="ecard-start" onclick="ecard()">Eカード スタート</button>
+    <div class = "start">
+        <div class = "citizen-card">
+            <p><input type="radio" name="cardlist" id="citizen" value="市民" checked>市民</p>
+            <img src="/img/citizen.jpeg" alt="">
+        </div>
+        <div class = "slave-card">
+            <p><input type="radio" name="cardlist" id="pa" value="奴隷">奴隷</p>
+            <img src="/img/slave.jpeg" alt="">
+        </div>
+    </div>
+
+   
+    <script src="/js/ecard.js"></script>
+</body>
+</html>
+
+
+
